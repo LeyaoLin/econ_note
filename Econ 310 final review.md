@@ -98,19 +98,37 @@ grammar_cjkRuby: true
 			-   Expected return(+)
 			-   Risk (-)
 			-   Liquidity(+)
+			-   international capital inflows(+)
+			-   expected inflation(-)(at start point)
+		-   The price and quantity demanded are **negatively** related 
+			-   reason: **asset returns are reduced by higher asset prices**
 	-  Supply side 
 		-  determinded in primary market 
 		-  factor affect supply
-			-  Gov. budget 
+			-  Gov. budget deficit (+)
 			   budget deficit→ gov need borrow →supply ↑
-			-  Investment opportunities
+			-  Investment opportunities(+)
 			  economic growth/expansion →公司做项目机会多→借钱投资
 			  → supply↑
-			-  Expected real cost of borrowing
+			-  Expected real cost of borrowing (-)
 				-  π_e increase, 在初期，i constant，real interest  rate decrease
 				-  借钱成本下降→多借钱
-			-  international capital flows
-		-  
+			-  international capital flows(+),海外机构借钱
+		-  the price and the quantity are **positive** related because **the cost of funds is reduced by higher asset prices**
+-  **interest rate decrease during the recessions**
+	-  econnomic downturn`!$\rightarrow$` expected income `!$\downarrow$` ,wealth `!$\downarrow$` `!$\rightarrow$` demand shift left,price decrease
+	-  supply shift right: lower expectd productivity --> profit decrease--> bond price rise
+	-  `!$\Delta D < \Delta S$`
+	-  bond price rise in a recession 
+-  interest rate prdict inflation 
+	-  `!$\pi_e \uparrow$` --> at start point ,D &S don't change, r decrease, i constant
+	-   then,demand cure shift to left,supply curve shift to right
+	-  after that, P decrease, i increase
+-  **Fisher effect**
+	-  `!$r \approxeq i- \pi^e$` 
+		-  assume r is fixed ,then change in nominal interest rate must match exactly any changes in the expected inflation rate
+	-  Higher  **expected inflation rates**  --> higher nominal interest rates 
+	-  changes in epected inflation rates-- chages in nomical interest rates **before a change in actual inflation occurs** 
 #### stock market
 - a share of ownership in a corporation 
 - the price of stock reflects he current value of the corporation
@@ -126,7 +144,113 @@ grammar_cjkRuby: true
     - stock exchange 
     - over the counter market
     - IPO: 上市
-- Share Valuation
-- 1234567890
-- 
+- **share value**
+	- 
+- **Stock Value**
+	- `!$D^e_{t+1}$` = the dividend paid ar the end of year 1
+	- `!$P^e_{t+1}$`= the resale price  at the end of year 1
+	- stock current price : `!$P_t=\frac{D_{t+1}^e}{1+r_E}+\frac{P_{t+1}^e}{1+r_E}$`
+	- `!$R=r_E=$` the ecpected rate of return
+	- `!$\frac{D^e_{t+1}}{P_t}$` :dividend yield
+	- Fundamental value of a stock 
+	   `!$P_t=\sum\limits_{k=1}^{\infty}\frac{D_{t+k}}{(1+r_E)^k}$`
+	- Gorden growth model
+		-  assume stock's dividend increase at growth rate **g**
+		-  `!$P_t= D_{t+k} \times \frac{1+g}{(r_E-g)}$`
+-  models of expectations
+		-  `!$P_{t+1}=P^e_{t+1}+ \epsilon_{t+1}$`
+		-  Adaptive expectations 
+			-  expectations are based on past experience only
+			-  slow to adjust to news
+		-  Rational expectations
+			-  expectations are based on all available information
+			-  **instantaneous adjustment** to reliable news about future trends
+### Money
+- currency is a good or an asset
+	- a menas of payment in the ceonomy 
+- Income : a flow of funds to a household or a firm
+- wealth is the sum of the value of a person's assets -liabilities
+- **core functions of money** 
+	- Medium of exchange 
+		- effective medium of exchange
+			- easily standardized
+			- widely acepted
+			- divisible
+			- easy to carry
+			- not deteriorate quickly
+	- Unit of account 
+	- store of value
+- Fiat currency : currency has **no intrinsic** values and carries a **zero interest** rate  
+	- why accept ?
+		- widely accept fiat currency as a means of payment
+		- legal tender laws
+- Commodity money： has intrinsic values , eg. gold ,sliver etc.
+ ####  payment system 
+- Canada payment system
+	- LVTS(Lynx)
+		- large-value transfer system
+	- ACSS ted clearing settlement system
+- Measure of Money supply
+	- Canadian's Monetary aggregates
+		- M1+: currency + chequable deposits
+		- M2：M1+ fixed-term deposits
+		- M2+:M2+ deposits at TMLs and CUCPs
+		- M2++: M2+ + certain retail debt instruments
+		- M3:M2+ non-personal term deposits + foreign currency bank deposits
+	- In SR, M1 and M2 can mover in different direction.
+		- variation over time in d&S of each type of financial asset 
+		- a rise in interest-rate spreads raise the relative cost of hoding asset that are less liquid, risker or longer-term
+	- in LR, these aggregates tend to move in same direction 
+		- demand for different financial assets reflects relatively peranent features of the economy 
+		- preferences, financial structure, economic policy
+	- real effect of MS
+		- reduce unemployment and increaseGDP in SR
+ #### Digital currency
+ - **Bank E money**
+	 - electronic money issuedby banks or other firms 
+ - **Crptocurrency**
+	 - a digtial or virual currency that functions as a medium of echane
+	 - transactions are processed in a computerized ledger known as the **blockchain**
+	 - without the need for chartered and central banks 
+	 - permissionless
+	 - censirship-resistant
+		 - spend it as you fee fit
+	 - 货币越不稳定的地方越喜欢比特币
+ - **Stablecoins**
+	 - asset-backed cryptocurrencies
+	 - "backed" by safe assests such as US currency or Treasury bonds
+ - **CENTRAL BANK DIGITAL CURRENCY:CBDC**
+	 - stable as the national currency 
+	 - allowed the central bank to control the capital outflows and implied the monetary policy
+  ### Interest rate
+  - i: nominal interest rate 
+  - r: real interest rate
+  - fisher equation:
+	  - `!$r \approxeq i- \pi^e$` 
+	  - relationship between the real inerest rate and nominal interest rate
+  - Ex ante
+	  - `!$r = i- \pi^e$` 
+	  - real interest rate is adjusted for expected changes in the price level
+  - Ex post
+	  -  `!$r = i- \pi$`
+	  -   real interest rate is adjusted for actual changes in the price level
+  -   Future value vs. present value
+	  -   `!$PV=\frac{Y_t}{(1+i)^t}$`
+	  -   `!$PV=\frac{A_1}{(1+i)}+\frac{A_2}{(1+i)^2}+...+\frac{A_t}{(1+i)^t}$` 
+	  -   PV< P 不应该买
+	  -   PV >P所有人都买
+	  -   PV=P equilibrium
+### 　CREDIT MARKET INSTRUMENTS
+- simple loan
+	- the borrower receives from the lender an amount called the principal and agrees to repay the lender the principal plus interest on a specific date when the loan matures.
+- discount bond
+- coupon bond
+- fixed payment loan
+	- requires the borrower to make regular periodic payments of principal(本金) and interest（利息） to the lender
+ 
+ ### efficient market hypothesis
+ 
+
+
+
     
