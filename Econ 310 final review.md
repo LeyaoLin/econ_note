@@ -4,10 +4,11 @@ tags: Econ
 category: /小书匠/note/2022-04
 renderNumberedHeading: true
 grammar_cjkRuby: true
+
 ---
 
-
-### Chapter 1 financial system 
+[toc]  
+### Financial system 
 - main function: the transfer of funds between the present. and the future
     - 用于交易 financial assets (saving account ,mortgae...)
 - saler is the borrower, buyer is the lender 
@@ -22,12 +23,12 @@ grammar_cjkRuby: true
     - investment: buy a prodctive physicial asset
 ### Risk and liquidity
 - disadvantage of financiall asset  without finiacial market 
-    - Risk : unpredictability of future payments 
+    - **Risk** : unpredictability of future payments 
         - shocks to borrower's future income 
         - incmplete info about the borrower
-    - liquidity: ease of converting asset into cashh 
+    - **liquidity**: ease of converting asset into cashh 
         - trascation cost 
-    - matchng borrowers and lender
+    - **matchng borrowers and lender** 
         - individuals not aware of all possible opptunities for borrowering and lending
         - incomplete info about the borrower
 - The solution
@@ -38,6 +39,8 @@ grammar_cjkRuby: true
             - allows people trade without physical asset
             - providing infomation als increase liquidity
         - using financial markets or financial intermediaries to match the borrower and lender
+	- **diff. between financial intermediates and markets**
+		- 
 ### 3. financial market
 - primary market : financial markets where stocks, bonds and other securities are sld foor first time.
 - secondary market: financial markets where traders buy or sell existinng seccurities（二手市场）
@@ -49,17 +52,17 @@ grammar_cjkRuby: true
 - interest rate features
     - short-term bonds / safer bonds have low interest rates
     - the spreads between them fluctuate
-- Discount bond
+- <span id=“discount_bond”><b>Discount bond</b> </span>
     - debt instrument
     - present value < future value
     - single payment at maturity 
-- coupon bond
+- <span id=“coupon”><b>Coupon bond</b> </span>
     - debt instrument
     - multiple payments bond 
     - Coupon: the annual fixed dollar amount of interest paid by the issuer of the bod to the buyer
     - `!$ coupon \  rate=\frac{coupon}{Face \ value} $`
 - **Yield of Maturity** 
-	- 债卷的整体年均回报率
+	- 债卷的整体年均回报率,中途没有转卖
 	- let PV= Price
 	- yield < 市场利率 →不应该投资
 	- One year discount bond :
@@ -80,6 +83,7 @@ grammar_cjkRuby: true
 		-    financial asset 价格波动的risk
 	-    default risk
 		-  不还钱的风险
+		-  gov. bond default risk < firm bond default risk
 -  **rate of return**
 	-  投资一年的回报
 	-  one period discount bond without default risk
@@ -128,7 +132,7 @@ grammar_cjkRuby: true
 	-  `!$r \approxeq i- \pi^e$` 
 		-  assume r is fixed ,then change in nominal interest rate must match exactly any changes in the expected inflation rate
 	-  Higher  **expected inflation rates**  --> higher nominal interest rates 
-	-  changes in epected inflation rates-- chages in nomical interest rates **before a change in actual inflation occurs** 
+	-  changes in epected inflation rates--> chages in nomical interest rates **before a change in actual inflation occurs** 
 #### stock market
 - a share of ownership in a corporation 
 - the price of stock reflects he current value of the corporation
@@ -145,19 +149,28 @@ grammar_cjkRuby: true
     - over the counter market
     - IPO: 上市
 - **share value**
-	- 
+	- `!$r_E$`: required  rate of return 
+		- 最低的投资股票回报率
+		- equity cost of capital
+		- `!$re=present\ value + equity\ premium$` 
+		- equity premium: 股票回报率 - other  asset  return rate 
+		- why stock have hiher return rate?
+			- stock has **systematic risk**
+				- 股票市场的巨大波动
+			-  stock has **Idiosyncratic risk**
+				-  公司自己的风险（公共危机,etc.）
 - **Stock Value**
 	- `!$D^e_{t+1}$` = the dividend paid ar the end of year 1
 	- `!$P^e_{t+1}$`= the resale price  at the end of year 1
 	- stock current price : `!$P_t=\frac{D_{t+1}^e}{1+r_E}+\frac{P_{t+1}^e}{1+r_E}$`
 	- `!$R=r_E=$` the ecpected rate of return
 	- `!$\frac{D^e_{t+1}}{P_t}$` :dividend yield
-	- Fundamental value of a stock 
+	- Fundamental value of a stock （一直持有）
 	   `!$P_t=\sum\limits_{k=1}^{\infty}\frac{D_{t+k}}{(1+r_E)^k}$`
 	- Gorden growth model
 		-  assume stock's dividend increase at growth rate **g**
 		-  `!$P_t= D_{t+k} \times \frac{1+g}{(r_E-g)}$`
--  models of expectations
+-  **models of expectations** 
 		-  `!$P_{t+1}=P^e_{t+1}+ \epsilon_{t+1}$`
 		-  Adaptive expectations 
 			-  expectations are based on past experience only
@@ -165,12 +178,12 @@ grammar_cjkRuby: true
 		-  Rational expectations
 			-  expectations are based on all available information
 			-  **instantaneous adjustment** to reliable news about future trends
-### Money
+### Money 
 - currency is a good or an asset
 	- a menas of payment in the ceonomy 
 - Income : a flow of funds to a household or a firm
 - wealth is the sum of the value of a person's assets -liabilities
-- **core functions of money** 
+- **core functions of money**  
 	- Medium of exchange 
 		- effective medium of exchange
 			- easily standardized
@@ -195,7 +208,7 @@ grammar_cjkRuby: true
 		- M1+: currency + chequable deposits
 		- M2：M1+ fixed-term deposits
 		- M2+:M2+ deposits at TMLs and CUCPs
-		- M2++: M2+ + certain retail debt instruments
+		- M2+\+: M2+ + certain retail debt instruments
 		- M3:M2+ non-personal term deposits + foreign currency bank deposits
 	- In SR, M1 and M2 can mover in different direction.
 		- variation over time in d&S of each type of financial asset 
@@ -208,6 +221,11 @@ grammar_cjkRuby: true
  #### Digital currency
  - **Bank E money**
 	 - electronic money issuedby banks or other firms 
+	 - transactors trust the issuer to solve the double-spend problem
+		 - double-spend problem:买了还没付钱
+	 - not permissionless
+		 - has to apply to the issuer for an account
+		 - not censorship-resistant: 不是特别自由
  - **Crptocurrency**
 	 - a digtial or virual currency that functions as a medium of echane
 	 - transactions are processed in a computerized ledger known as the **blockchain**
@@ -237,19 +255,21 @@ grammar_cjkRuby: true
   -   Future value vs. present value
 	  -   `!$PV=\frac{Y_t}{(1+i)^t}$`
 	  -   `!$PV=\frac{A_1}{(1+i)}+\frac{A_2}{(1+i)^2}+...+\frac{A_t}{(1+i)^t}$` 
-	  -   PV< P 不应该买
-	  -   PV >P所有人都买
-	  -   PV=P equilibrium
-### 　CREDIT MARKET INSTRUMENTS
+	  -   PV < P 不应该买
+	  -   PV \> P所有人都买
+	  -   PV = P equilibrium
+### CREDIT MARKET INSTRUMENTS 
 - simple loan
 	- the borrower receives from the lender an amount called the principal and agrees to repay the lender the principal plus interest on a specific date when the loan matures.
-- discount bond
-- coupon bond
+- [discount bond](#“discount_bond”) 
+- [coupon bond](#“coupon”)
 - fixed payment loan
 	- requires the borrower to make regular periodic payments of principal(本金) and interest（利息） to the lender
  
- ### efficient market hypothesis
- 
+ ### Efficient market hypothesis 
+ - based on rational expectation 
+ - 
+  
 
 
 
