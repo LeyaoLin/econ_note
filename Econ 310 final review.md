@@ -268,8 +268,95 @@ grammar_cjkRuby: true
  
  ### Efficient market hypothesis 
  - based on rational expectation 
- - 
+ - the equilibrium price of a security = its fundamental value
+ - Why stock price unstable?
+	 - **the stock price reflects all available infomaion on their fundamental value, their prices constantly change as news affects fundamental value**
+ - **Information is only valuable if it is not pulicly avilable**
+ - stock-picking cannot gnerate a higher expected return than the markets as a whole
+ - pulic info or pulished reports of investment advisers is already reflected in market prices
+ - "hold the market" is the best
+ - minimize trading
+ - stock price decrease under covid pandamic
+	 - if reason of decrease is the decrease of fundamental value(这个公司在疫情期间的运营不行)----》 符合EMH
+	 - if the reason is people overreaction , 不符合
+ - **Behavior economics**: study of choices that do not appear to be economically rational 
+	 - **BUBBLE** : a situation in which the price of an assets rise above the asset's fundamental value
+		 - news of price increases spurs investor enthusiasm, which spreads by psychological contagion from person to person
+		 - HERD BEHAVIOUR: investors imitating the behavior of other investors rather
+than trading on the basis of fundamental values
+
+### Financial structure
+#### Key facts
+- as a source of funding for business, financial intermediaries are much more important than financial markets
+- The stock markets is less important than the bond market as a source of external funds to corporations 
+- Debt contracts usually require collateral（抵押） or restrictive covenants(条款)
+- financial intermediates has larger transcation cost than financial market
+
+#### Asymmetric information 
+##### Adverse selection 
+- infomation issues that arise before the transction 
+- lender doesn't know the characteristics of the projet and borrower 
+- 无法分辨借债者的还款能力， 只能charge 高风险和低风险的平均利率，导致只有高风险者愿意借贷
+- **solution**：
+	- increase information
+	- force borrowers to have a large stake in the outcome like collateral
+	- for fiancial intermediary:
+		- relationship banking : 违约了一家，在其他家也借不到钱
+
+##### Moral hazard
+- **The borrower's incentives to succeed are weakened by having to repay the lender**
+- PRINCIPAL AGENT PROBLEM: managers (the agents) pursuing their own interests rather than those of shareholders (the principals)
+- MH in stock market
+	-  firms are owned by shareholders but run by top management
+	-  thus, the mangers have an incentive to underreposrt profits
+		-  reduce the dividends and retain the profit for their own
+	-  Solution 
+		-  issue financial statements audited by independent accountants
+		-  incentive contracts to align the gials of managers with the goals of shareholders
+-  MH in bond market
+	-  less moral hazard in the bond market than in the stock market
+	-  restrictive covenants into bond contracts
+-  MH in banks ( too big to fail)
+	-  financial firms will make riskier investments if they believe the government will save them from bankruptcy
+-  Solution 
+	-  monitoring/ screening can be costly 
+	-  collateral
+	-  shortcoming:
+		-   monitoring/screening can be costly 
+		-   free-riding 
+-   finiancial intermediaries less costly in information than financial market
+-   
+
+
+
+
   
+### crisis
+###### regulation Q
+- estabilished in 1933
+- to limit competition for funds among banks
+- prohibited bankd from paying interest on demand deposits
+- placed ceilings on the interest rates bankds pay on time and savings deposits
+- **Impact results**
+	-  inflation increase
+	- nominal interest rate increase
+	- credit crunch occurs ,since bank can not improve their interest rate
+	- disintermediation occurs
+		- the exit of savers and borrowers from banks to financial markets
+	- saving and loan crisis occurs (1979-1980)
+- Government's regulatory cycle
+	- new regulation is a response to crisis, but eventually causes new problems and so the regulation changes oris cancelled
+ ###### 08 finnancial crisis
+ - housing bubble 
+ - securitization 
+	 - 把房屋贷款变成债券(mortgage backed secuirities)
+	 - bank sale their mortage to a specialized financial institutions, then this insititution produces and sells MBS  
+	 - MBS 卖给了很多investment bank
+ - real effect
+	 - GDP decrease, unemployment increase
+ - Settlement Policy
+	 - reduced SR interest rate target to 0
+	 -  
 
 
 
