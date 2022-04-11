@@ -197,8 +197,8 @@ grammar_cjkRuby: true
 	- why accept ?
 		- widely accept fiat currency as a means of payment
 		- legal tender laws
-- Commodity money： has intrinsic values , eg. gold ,sliver etc.
- ####  payment system 
+- Commodity money： has intrinsic values , eg. gold ,sliver etc
+####  payment system 
 - Canada payment system
 	- LVTS(Lynx)
 		- large-value transfer system
@@ -218,7 +218,7 @@ grammar_cjkRuby: true
 		- preferences, financial structure, economic policy
 	- real effect of MS
 		- reduce unemployment and increaseGDP in SR
- #### Digital currency
+  #### Digital currency
  - **Bank E money**
 	 - electronic money issuedby banks or other firms 
 	 - transactors trust the issuer to solve the double-spend problem
@@ -292,7 +292,7 @@ than trading on the basis of fundamental values
 - Debt contracts usually require collateral（抵押） or restrictive covenants(条款)
 - financial intermediates has larger transcation cost than financial market
 
-#### Asymmetric information 
+#### Asymmetric information  
 ##### Adverse selection 
 - infomation issues that arise before the transction 
 - lender doesn't know the characteristics of the projet and borrower 
@@ -325,13 +325,117 @@ than trading on the basis of fundamental values
 		-   monitoring/screening can be costly 
 		-   free-riding 
 -   finiancial intermediaries less costly in information than financial market
--   
-
-
-
-
+	-   handling many similar transactions and no free-riding (monoplistic relationship with borrower)
   
-### crisis
+#### Banking
+- FI must resolve conflicting interests of lenders and borrowers 
+- profit from **interest rate spread**
+	-  interest rate sprread caused by **asset transformation**
+
+### Bank Management 
+- **Bank balance sheet**
+	- Assets= liabilities + shareholder's equity
+	- 表左右两边相等
+	- ![balance sheet](./images/1649612516249.png)
+
+	- **Assets** 
+		- reserves= settlement balances (deposits at the bank of Canada)+ vault cash
+		- loans
+		- securities 
+		- Cash Items in Process of Collection
+			- checks drawn on other bank
+		- Deposits at other banks
+	- **Liabilities**
+		- demand and notice deposits
+			- lowest-cost source of funds
+		- fixed-term deposits
+		- borrowings
+			- settlement balances with the bank of Canada 
+			- interbank loan 
+			- repurchase agreements(repos)
+	- **Bank Capital** 
+		- = asset- liabaility 
+		- shareholders' equity of a bank(原始资本)
+		- Insolvent: bank capital < 0,离倒闭不远了
+#### 4 kinds of management
+**Asset management, liability management,liquidity, capital adequancy**
+##### liquidity management
+- maintain enough reserves to satisfy withdraw
+- no enough solution :
+	- **borrow from other bank** (lowest cost)
+	- **sell security**
+		- cost include brokerage（佣金）+ other transaction cost
+	- **borrow from central bank**
+		- interest rate higher than other bank
+	- **reduce its loans** (most costly)
+ #### capital adequancy 
+ - **influences the "safety" of a bank**
+	 - bank capital ratio= bank capital/ assets
+	 - higher bank cpital ratio--> less chance to become insolvent bank 
+ - **Influences the returns for the bank’s shareholders or equity holders** 
+	 - return on asset 
+		 - `!$ROA= \frac{profit }{asset}$`
+	 - return on equity
+		 -  `!$ROE= \frac{profit }{bank\ capital}$`
+		 -  share holders want the highest possible rate of ROE
+	 -  **Equity Multiplier(Leverage Ratio)**
+		 -   `!$EM= \frac{assets }{bank\ capital}=\frac{1}{CR}$`
+		 -    `!$ROE=ROA\times EM$` 
+			 -    The higher EM , the higher ROE as ROA constant.
+			 -    the higher EM , the lower CR
+	  - **Trade off**
+		 - increase bank capital will increase CR and reduced EM ,then final reduced the ROE. However, the bank with high ROE attact more investors and depositors
+		 - Higher ROE implies a higher risk of bank failure
+	 - more copetitive market---> bank has incentive to choose high EM and low CR
+	 - MH  
+		 -  if payment to managers is based on ROE, managers may take on more risk to generate high ROE
+#### regulate bank capital
+- why government limtis the amout of leverage that banks are allowed?
+	- incentive effect
+		- highly-capitalized banks less susceptible to moral hazard
+	- Stability effect 
+		- highly-capitalized banks less vulnerable to loan defaults
+- **Capital Adequacy ratio**
+	- `!$CAR=\frac{Eligible\ capital}{risk-weighted\ assets}$`
+- **off balance sheet activities**
+	- examples: loan guarantee,stand by letter of credit
+	- increase risk
+#### interest rate risk
+##### GAP analysis 
+- GAP=rate senstive assets(RSA)- rate sensitive liabilities(RSL)
+##### Duration analysis
+- risk also could caused by the difference of duration of asset and liability
+#### CREDIT RISK
+ risk that borrowers might default their loans,maily caused by  [asymmetric infomation](#asymmetric20information_15) 
+- reduced MH
+	- credit rationing : 
+		- Loan and credit limits reduce moral hazard by increasing the chance a borrower will repay
+	- Relationship banking:
+		- Long-term business relationships reveal more information about the borrower 
+	- [other method](#moral20hazard_17)
+### Financial regulation 
+#### Bank panic
+- bank run:
+	-  all depositors immediately withdraw all their deposits in fear that the bank is about to final
+	-  it can be caused by a self-fulfillig prophecy
+		-  看见别人取钱，你也取
+-  In bank panic, many bank experience runs
+-  **Contagion** is the process by which a run on one bank
+spreads to other banks, resulting in a bank panic.
+- **FEEDBACK LOOP**
+	- ![loop](./images/1649640067674.png)
+#### solution 
+##### banking holidays 
+银行放假不让取钱
+##### lender of last resort 
+
+##### deposit insurance 
+#####
+ 
+### Crisis 
+- occurs when a large siruption in the flow of funds from lenders to borrowers
+- result in financial activity declines, then GDP and price level also may decline 
+	- crisis--> investment decrease--> GDP decrease
 ###### regulation Q
 - estabilished in 1933
 - to limit competition for funds among banks
@@ -356,7 +460,29 @@ than trading on the basis of fundamental values
 	 - GDP decrease, unemployment increase
  - Settlement Policy
 	 - reduced SR interest rate target to 0
-	 -  
+
+### Central Bank
+- 作用：
+	- currency
+	- government funds
+	- financial system
+	- monetary policy
+#### 美国央行 VS. 加拿大央行
+- federal reserve
+- 
+#### Money supply process
+- balence sheet of central bank
+ 
+| assets                          | liabiliteis                   |
+| ------------------------------- | ----------------------------- |
+| securities                      | currency in circulation       |
+| loans to financial institutions | reserves(settlement balances) |
+
+  ### Monetary Policy
+  - 
+  
+
+
 
 
 
