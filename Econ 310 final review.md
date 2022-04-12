@@ -485,7 +485,7 @@ spreads to other banks, resulting in a bank panic.
 ##### Monetary base
 `!$MB=C+R$` 
 **How to control**
-1. open market operation 
+1. [open market operation](#conventional20policy_51)
 	1. purchase: MB increase 
 	2. sales: MB decrease
 2. making loans to banks
@@ -550,10 +550,43 @@ spreads to other banks, resulting in a bank panic.
 - SPRA:repo: a form of short-term borrowing from deals in government securities 
 	- transfer reserves temporarily to the seller
 	- **increasing reserves supply temporarily**
+	- **decrease overnight rate**
 	- the seller is required to re-purchased the bonds a day later at the agreed resale price
 - SRA: reverse repo: the BofC sells government of Canada bonds to a buyer
-	- temporarily reducing the reserves
-	-  
+	- **temporarily reducing the reserves**
+	-  **increase overnight rate**
+##### other policy
+- adjust minimum settlement balance per member (调整required ratio)
+- transfer of government cash balance between BofC and other LVTS participants
+
+#### Monetary policy 
+main idea: control the level of economic activity by manipulating the size of the money supply 
+assumption: the changes in overnight rate will cause changes in bank lending, so affect credit conditions in other markets( 所有i 都同方向变)
+##### conventional policy 
+- **open market operation**
+	- change short term i or iOR
+	- open market purchase 
+		- expansionary policy 
+		- reduces overnight interest rate
+	- open market sale
+		- contractionary policy 
+		- increase  overnight interest rate
+
+##### non-conventional monetary policy 
+when supply intersect with demand flat section, the changes in supply doesn't change the interest rate. 
+consist mainly of central bank purchase of long term asset
+- **quantitative easing**
+	- Expansion of central bank trading to long-term securities
+	- 08年金融危机出现的政策工具
+	- impact:
+		- generated a huge increase in the monetary base
+			- shifting reserve supply to right 
+		- does not necessarily increase the money supply 
+
+- **Special lending facilities**
+- **forward guidance**
+- 
+
 
 
 
