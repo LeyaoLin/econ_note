@@ -520,7 +520,9 @@ spreads to other banks, resulting in a bank panic.
 	- The income effect 
 		- MS increase--> consumption increase--> GDP increase
 		- interest rate increase --> demand for money increase , bond demand decrease
-- **only when liquidity effect dominated the influence， money supply increase ， nominal interest rate falls**
+- **only when liquidity effect dominated the influence,money supply increase,nominal interest rate falls**
+	- before the 1981, higher money growth, liquidity effect not dominated
+	- after 2000, M2 increase sharply ->data fits the panel with liquidity effect larger than other effect
 
 #### Central bank policy
 - overnight market
@@ -558,7 +560,21 @@ spreads to other banks, resulting in a bank panic.
 ##### other policy
 - adjust minimum settlement balance per member (调整required ratio)
 - transfer of government cash balance between BofC and other LVTS participants
-
+ #### Policy Rule 
+ ##### Credibility 
+ - **Nominal anchor**: the main goal of monetary policy 
+	 - eg. inflation rate ,nominal GDP,size of money supply ,nominal interest rate
+	 - Purpose: to provide an anchor for inflationary
+expectations.
+ - The credibility of central banks influences people's economic decisions.
+ ##### policy rule
+ - A tool to achieve credibility 
+ - policy maker announce in advance how policy will respond in various situations and commit to following through
+ - **inflation targeting rule**
+	 -  加拿大的货币政策目标是将通货膨胀稳定在2%
+	 -  `!$i_{OR}=a+b(\pi-\pi^T)$` , where `!$\pi^T$` is inflation rate target and π is the actual inflation 
+	 -  if 
+ 
 #### Monetary policy 
 main idea: control the level of economic activity by manipulating the size of the money supply 
 assumption: the changes in overnight rate will cause changes in bank lending, so affect credit conditions in other markets( 所有i 都同方向变)
@@ -582,10 +598,19 @@ consist mainly of central bank purchase of long term asset
 		- generated a huge increase in the monetary base
 			- shifting reserve supply to right 
 		- does not necessarily increase the money supply 
-
+			- bank will not increase the lending during the crisis
+	- failure in credit  expansion ,success in stabilizing banks
+	- The goal of QE is **credit easing**,which shifts lending from short term to longer term contracts, decreasing the long-term asset's interest rate.
 - **Special lending facilities**
-- **forward guidance**
-- 
+	- central-bank lending programs to provide liquidity directly to borrowers and investors in key credit markets.
+	- Example: The Money Market Investor Funding Facility (MMIFF) announced in October 2008 , expired on October 30, 2009.
+- **Forward guidance**
+	- promise that short-term rates will be follow a fixed path in the future
+	- _unconditional forward guidance_
+		-  always keep the fixed rate whatever condition it meet
+		-  eg.BofC commits to keep the policy rate at zero for next 2 years
+	-  *conditional forward guidance*
+		-  policy rate rise if inflation exceeds target
 
 
 
