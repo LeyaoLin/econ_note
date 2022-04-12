@@ -217,10 +217,10 @@ grammar_cjkRuby: true
 		- demand for different financial assets reflects relatively peranent features of the economy 
 		- preferences, financial structure, economic policy
 	- real effect of MS
-		- reduce unemployment and increaseGDP in SR
+		- reduce unemployment and increase GDP in SR
   #### Digital currency
  - **Bank E money**
-	 - electronic money issuedby banks or other firms 
+	 - electronic money issued by banks or other firms 
 	 - transactors trust the issuer to solve the double-spend problem
 		 - double-spend problem:买了还没付钱
 	 - not permissionless
@@ -336,7 +336,7 @@ than trading on the basis of fundamental values
 - **Bank balance sheet**
 	- Assets= liabilities + shareholder's equity
 	- 表左右两边相等
-	- ![balance sheet](./images/1649612516249.png)
+	- ![balance sheet](https://raw.githubusercontent.com/LeyaoLin/econ_note/main/小书匠/1649709560462.png)
 
 	- **Assets** 
 		- reserves= settlement balances (deposits at the bank of Canada)+ vault cash
@@ -354,7 +354,7 @@ than trading on the basis of fundamental values
 			- interbank loan 
 			- repurchase agreements(repos)
 	- **Bank Capital** 
-		- = asset- liabaility 
+		- = asset- liability  
 		- shareholders' equity of a bank(原始资本)
 		- Insolvent: bank capital < 0,离倒闭不远了
 #### 4 kinds of management
@@ -368,10 +368,10 @@ than trading on the basis of fundamental values
 	- **borrow from central bank**
 		- interest rate higher than other bank
 	- **reduce its loans** (most costly)
- #### capital adequancy 
+ #### capital adequacy 
  - **influences the "safety" of a bank**
 	 - bank capital ratio= bank capital/ assets
-	 - higher bank cpital ratio--> less chance to become insolvent bank 
+	 - higher bank capital ratio--> less chance to become insolvent bank 
  - **Influences the returns for the bank’s shareholders or equity holders** 
 	 - return on asset 
 		 - `!$ROA= \frac{profit }{asset}$`
@@ -384,13 +384,13 @@ than trading on the basis of fundamental values
 			 -    The higher EM , the higher ROE as ROA constant.
 			 -    the higher EM , the lower CR
 	  - **Trade off**
-		 - increase bank capital will increase CR and reduced EM ,then final reduced the ROE. However, the bank with high ROE attact more investors and depositors
+		 - increase bank capital will increase CR and reduced EM ,then final reduced the ROE. However, the bank with high ROE attract more investors and depositors
 		 - Higher ROE implies a higher risk of bank failure
-	 - more copetitive market---> bank has incentive to choose high EM and low CR
+	 - more competitive  market---> bank has incentive to choose high EM and low CR
 	 - MH  
 		 -  if payment to managers is based on ROE, managers may take on more risk to generate high ROE
 #### regulate bank capital
-- why government limtis the amout of leverage that banks are allowed?
+- why government limits the amount of leverage that banks are allowed?
 	- incentive effect
 		- highly-capitalized banks less susceptible to moral hazard
 	- Stability effect 
@@ -402,11 +402,11 @@ than trading on the basis of fundamental values
 	- increase risk
 #### interest rate risk
 ##### GAP analysis 
-- GAP=rate senstive assets(RSA)- rate sensitive liabilities(RSL)
+- GAP=rate sensitive assets(RSA)- rate sensitive liabilities(RSL)
 ##### Duration analysis
 - risk also could caused by the difference of duration of asset and liability
 #### CREDIT RISK
- risk that borrowers might default their loans,maily caused by  [asymmetric infomation](#asymmetric20information_15) 
+ risk that borrowers might default their loans,main––ly caused by  [asymmetric infomation](#asymmetric20information_15) 
 - reduced MH
 	- credit rationing : 
 		- Loan and credit limits reduce moral hazard by increasing the chance a borrower will repay
@@ -423,7 +423,7 @@ than trading on the basis of fundamental values
 -  **Contagion** is the process by which a run on one bank
 spreads to other banks, resulting in a bank panic.
 - **FEEDBACK LOOP**
-	- ![loop](./images/1649640067674.png)
+	- ![loop](https://raw.githubusercontent.com/LeyaoLin/econ_note/main/小书匠/1649710001892.png)
 #### solution 
 ##### banking holidays 
 银行放假不让取钱
@@ -437,10 +437,10 @@ spreads to other banks, resulting in a bank panic.
 - result in financial activity declines, then GDP and price level also may decline 
 	- crisis--> investment decrease--> GDP decrease
 ###### regulation Q
-- estabilished in 1933
+- estabilished in 1933
 - to limit competition for funds among banks
-- prohibited bankd from paying interest on demand deposits
-- placed ceilings on the interest rates bankds pay on time and savings deposits
+- prohibited banks from paying interest on demand deposits
+- placed ceilings on the interest rates banks pay on time and savings deposits
 - **Impact results**
 	-  inflation increase
 	- nominal interest rate increase
@@ -449,12 +449,12 @@ spreads to other banks, resulting in a bank panic.
 		- the exit of savers and borrowers from banks to financial markets
 	- saving and loan crisis occurs (1979-1980)
 - Government's regulatory cycle
-	- new regulation is a response to crisis, but eventually causes new problems and so the regulation changes oris cancelled
- ###### 08 finnancial crisis
+	- new regulation is a response to crisis, but eventually causes new problems and so the regulation changes or is cancelled
+ ###### 08 financial crisis
  - housing bubble 
  - securitization 
-	 - 把房屋贷款变成债券(mortgage backed secuirities)
-	 - bank sale their mortage to a specialized financial institutions, then this insititution produces and sells MBS  
+	 - 把房屋贷款变成债券(mortgage backed securities)
+	 - bank sale their mortgage to a specialized financial institutions, then this institution produces and sells MBS  
 	 - MBS 卖给了很多investment bank
  - real effect
 	 - GDP decrease, unemployment increase
@@ -471,18 +471,89 @@ spreads to other banks, resulting in a bank panic.
 - federal reserve
 - 
 #### Money supply process
-- balence sheet of central bank
+- balance sheet of central bank
  
 | assets                          | liabiliteis                   |
 | ------------------------------- | ----------------------------- |
 | securities                      | currency in circulation       |
 | loans to financial institutions | reserves(settlement balances) |
+- Currency in circulation : in the hands of the public
+ ##### reserves
+ - reserves: bank's deposits(settlements balance) at the bank of C and vault cash
+ - **desired require ratio**: 
+	- the fraction of deposits that **the bank want to** keep as reserves
+##### Monetary base
+`!$MB=C+R$` 
+**How to control**
+1. open market operation 
+	1. purchase: MB increase 
+	2. sales: MB decrease
+2. making loans to banks
 
-  ### Monetary Policy
-  - 
-  
+`!$M1=cash+ demand\ deposit=MB\times Money\ Multiplier$`
+### Monetary Policy
+#### Money market model 
+  - Money demand
+	 - The opportunity cost of holding money equals the nominal interest rate on bonds 
+	 - interest rate increase--->cost of holding money increase-->quantity of money demand decrease
+	 - factor result in shift
+		 - income ↑ demand ↑
+		 - price ↑ demand ↑
+- Money supply
+		 - supply curve is vertical, determined by policy of central bank 
+- Monetary equilibrium
+	-  ![DS model](https://raw.githubusercontent.com/LeyaoLin/econ_note/main/小书匠/1649712915970.png) 
 
+	-  用于决定interest rate
+	-   Double equilibrium
+		-   bond market is equilibrium , the money market must also be in equilibrium
+##### effect of increasing money supply
+- **liquidity effect** (direct effect)
+	- money increase, people buying more bonds with extra money 
+	- bond demand ↑  price ↑ interest rate ↓
+- **indirect effect**
+	- changes in money demand 
+	- Expected-inflation effect
+		  - MS increase--> π_e increase,according to [fisher effect](#interest20rate_10),nominal interest rate increase
+	- The price-level effect
+		- price level increase--> need more cash for transactions-->MD increase
+	- The income effect 
+		- MS increase--> consumption increase--> GDP increase
+		- interest rate increase --> demand for money increase , bond demand decrease
+- **only when liquidity effect dominated the influence， money supply increase ， nominal interest rate falls**
 
+#### Central bank policy
+- overnight market
+	- banks adjust their settlement balance by borrowing  and lending reserves
+	- standing liquidity facility: borrowing or lending with central bank
+	- asset with 24-hour term to maturity
+	- overnight interest rate = `!$i_{OR}$` , decided by overnight market D&S
+- how to control overnight interest rate(policy rate , target for `!$i_{OR}$` )
+	- BofC impose an interest-rate spread on settlement balances by setting bank rate( `!$i_{B}$`) and deposit rate( `!$i_{D}$`)
+		- lend money to banks with bank rate 
+		- borrow money from banks(bank deposit) with deposit rate
+		- ![LVTS settlement balance](https://raw.githubusercontent.com/LeyaoLin/econ_note/main/小书匠/1649718563902.png)
+##### full D&S model of overnight market
+![ON_D&S](https://raw.githubusercontent.com/LeyaoLin/econ_note/main/小书匠/1649718738837.png)
+
+- Demand:
+	- the overnight rate cannot less than deposit rate
+	- when overnight rate equals to deposit rate,commercial bank is indifferent between lend to other banks and deposit at central bank.
+- Supply:
+	- supply of reserves = non-borrowed reserves+ borrowed reserves
+	- bank rate exceed overnight rate, commercial bank borrowed money from other banks rather than central bank.
+	- if the overnight rate equals to bank rate, the supply of reserves is infinite
+- central bank's impact
+	- The BofC shift the supply of reserves to control the overnight interest rate by monetary policy 
+
+##### repurchase transactions (repo,reverse repo)
+- SPRA:repo: a form of short-term borrowing from deals in government securities 
+	- transfer reserves temporarily to the seller
+	- **increasing reserves supply temporarily**
+	- the seller is required to re-purchased the bonds a day later at the agreed resale price
+- SRA: reverse repo: the BofC sells government of Canada bonds to a buyer
+	- temporarily reducing the reserves
+	-  
 
 
 
