@@ -436,7 +436,7 @@ spreads to other banks, resulting in a bank panic.
 - occurs when a large siruption in the flow of funds from lenders to borrowers
 - result in financial activity declines, then GDP and price level also may decline 
 	- crisis--> investment decrease--> GDP decrease
-###### regulation Q
+#### regulation Q
 - estabilished in 1933
 - to limit competition for funds among banks
 - prohibited banks from paying interest on demand deposits
@@ -450,7 +450,7 @@ spreads to other banks, resulting in a bank panic.
 	- saving and loan crisis occurs (1979-1980)
 - Government's regulatory cycle
 	- new regulation is a response to crisis, but eventually causes new problems and so the regulation changes or is cancelled
- ###### 08 financial crisis
+#### 08 financial crisis
  - housing bubble 
  - securitization 
 	 - 把房屋贷款变成债券(mortgage backed securities)
@@ -560,7 +560,7 @@ spreads to other banks, resulting in a bank panic.
 ##### other policy
 - adjust minimum settlement balance per member (调整required ratio)
 - transfer of government cash balance between BofC and other LVTS participants
- #### Policy Rule 
+#### Policy Rule 
  ##### Credibility 
  - **Nominal anchor**: the main goal of monetary policy 
 	 - eg. inflation rate ,nominal GDP,size of money supply ,nominal interest rate
@@ -573,8 +573,21 @@ expectations.
  - **inflation targeting rule**
 	 -  加拿大的货币政策目标是将通货膨胀稳定在2%
 	 -  `!$i_{OR}=a+b(\pi-\pi^T)$` , where `!$\pi^T$` is inflation rate target and π is the actual inflation 
-	 -  if 
- 
+	 -  if `!$\pi >\pi^T $`,then iOR will rise ,causing π to fall
+ - **taylor rule**
+	 - Fed sets the FFR to minimize a weighted sum of deviations of inflation and unemployment from its target rates
+	 - `!$FFR=a+b(\pi-\pi^T)+c(Y-Y^F)$` 
+	 - `!$Y-Y^F$`=acutal GDP-full employment GDP
+		 - output gap , the percentage difference of real GDP from potential real GDP
+	 - if b and c >0, the inflation rate will rise by more than the rise in inflation
+	 - Taylor principle: keep real FFR constant
+	 - some fact
+		 - fail to explain the FFR keeps so low after 2011 
+		 - interest rate should be much higher in 2016
+	 - taylor rule in canada
+		 - similar to the US.,c>0
+		 - Theory 1: The Bank actually “cares” about minimizing the output gap 
+		 - Theory 2: The Bank believes the output gap generates future inflation
 #### Monetary policy 
 main idea: control the level of economic activity by manipulating the size of the money supply 
 assumption: the changes in overnight rate will cause changes in bank lending, so affect credit conditions in other markets( 所有i 都同方向变)
